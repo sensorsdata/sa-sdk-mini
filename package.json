@@ -1,0 +1,27 @@
+{
+  "name": "sa-sdk-mini",
+  "version": "0.1.0",
+  "description": "神策小游戏 SDK",
+  "main": "/build/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wechat": "rollup -i src/package/wechat-game.js -f esm -o miniprogram-build.js",
+    "tt": "rollup -i src/package/bytedance-game.js -f esm -o bytedance-build.js",
+    "qq": "rollup -i src/package/qq-game.js -f esm -o qq-build.js",
+    "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o cocos-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensorsdata/sa-sdk-mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sensorsdata/sa-sdk-mini/issues"
+  },
+  "homepage": "https://github.com/sensorsdata/sa-sdk-mini#readme",
+  "dependencies": {
+    "rollup-plugin-virtual": "^1.0.1"
+  },
+  "devDependencies": {}
+}
