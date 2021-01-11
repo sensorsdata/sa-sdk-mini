@@ -8,7 +8,8 @@
     "wechat": "rollup -i src/package/wechat-game.js -f esm -o miniprogram-build.js",
     "tt": "rollup -i src/package/bytedance-game.js -f esm -o bytedance-build.js",
     "qq": "rollup -i src/package/qq-game.js -f esm -o qq-build.js",
-    "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o cocos-build.js"
+    "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o cocos-build.js",
+    "laya": "rollup -i src/package/layaair-game.js -f esm -o laya-build.js"
   },
   "repository": {
     "type": "git",
