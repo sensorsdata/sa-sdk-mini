@@ -11,6 +11,7 @@
 
 ## 目录说明
 /build/cocoscreator-game.min.js  支持 CocosCreator 开发的小游戏  
+/build/LayaAir-game.min.js  支持 LayaAir 开发的小游戏    
 /build/wechat-game.min.js 支持微信小游戏  
 /build/qq-game.min.js  支持QQ小游戏  
 /build/bytedance-game.min.js 支持字节小游戏  
