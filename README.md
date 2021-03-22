@@ -16,7 +16,7 @@
 /build/wechat-game.min.js 支持微信小游戏  
 /build/qq-game.min.js 支持 QQ 小游戏  
 /build/bytedance-game.min.js 支持字节小游戏  
-/build/h5-game.min.js 支持 H5 小游戏
+/build/h5-game.min.js 支持 H5 小游戏  
 /build/jd-mp.min.js 支持京东小程序
 
 ## License
