@@ -1,15 +1,17 @@
 {
   "name": "sa-sdk-mini",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "神策小游戏 SDK",
   "main": "/build/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wechat": "rollup -i src/package/wechat-game.js -f esm -o miniprogram-build.js",
-    "tt": "rollup -i src/package/bytedance-game.js -f esm -o bytedance-build.js",
-    "qq": "rollup -i src/package/qq-game.js -f esm -o qq-build.js",
-    "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o cocos-build.js",
-    "laya": "rollup -i src/package/layaair-game.js -f esm -o laya-build.js"
+    "wechat": "rollup -i src/package/wechat-game.js -f esm -o build/wechat-game.js.js",
+    "jd": "rollup -i src/package/jd-mp.js -f cjs -o build/jd-mp.js",
+    "tt": "rollup -i src/package/bytedance-game.js -f esm -o build/bytedance-game.js",
+    "qq": "rollup -i src/package/qq-game.js -f esm -o build/qq-game.js",
+    "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o build/cocoscreator-game.j",
+    "laya": "rollup -i src/package/layaair-game.js -f esm -o build/layaair-game.js",
+    "auto": "rollup -i plugin/autoTrack/index.js -f esm -o plugin-build/autoTrack.js"
   },
   "repository": {
     "type": "git",
