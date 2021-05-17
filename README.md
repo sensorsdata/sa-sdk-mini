@@ -18,7 +18,9 @@
 /build/bytedance-game.min.js 支持字节小游戏  
 /build/h5-game.min.js 支持 H5 小游戏  
 /build/jd-mp.min.js 支持京东小程序  
-/build/egret-game.min.js 支持 Egret 开发的小游戏
+/build/egret-game.min.js 支持 Egret 开发的小游戏  
+/build/kuaishou-mp.min.js 支持快手小程序
+
 
 
 ## License
