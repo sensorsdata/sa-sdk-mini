@@ -1,6 +1,6 @@
 {
   "name": "sa-sdk-mini",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "神策小游戏 SDK",
   "main": "/build/",
   "scripts": {
@@ -11,6 +11,7 @@
     "qq": "rollup -i src/package/qq-game.js -f esm -o build/qq-game.js",
     "cocos": "rollup -i src/package/cocoscreator-game.js -f esm -o build/cocoscreator-game.j",
     "laya": "rollup -i src/package/layaair-game.js -f esm -o build/layaair-game.js",
+    "binance": "rollup -i src/package/binance-mp.js -f esm -o build/binance-mp.js",
     "auto": "rollup -i plugin/autoTrack/index.js -f esm -o plugin-build/autoTrack.js"
   },
   "repository": {
