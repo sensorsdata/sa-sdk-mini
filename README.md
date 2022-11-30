@@ -19,7 +19,7 @@
 /build/h5-game.min.js 支持 H5 小游戏  
 /build/jd-mp.min.js 支持京东小程序  
 /build/egret-game.min.js 支持 Egret 开发的小游戏  
-/build/mp-taobao/index.min.js 支持淘宝小程序
+/build/taobao-mp.min.js 支持淘宝小程序
 
 
 ## License
