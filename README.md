@@ -7,20 +7,7 @@
 
 ## sa-sdk-mini 简介
 
-神策小游戏的打包集合，目前支持 CocosCreator 和 LayaAir 开发的小游戏、微信小游戏、QQ 小游戏、字节跳动小游戏和 H5 小游戏。后续版本迭代将会支持各个小程序和小游戏的数据采集。
-
-## 目录说明
-
-/build/cocoscreator-game.min.js 支持 CocosCreator 开发的小游戏  
-/build/layaAir-game.min.js 支持 LayaAir 开发的小游戏  
-/build/wechat-game.min.js 支持微信小游戏  
-/build/qq-game.min.js 支持 QQ 小游戏  
-/build/bytedance-game.min.js 支持字节小游戏  
-/build/h5-game.min.js 支持 H5 小游戏  
-/build/jd-mp.min.js 支持京东小程序  
-/build/egret-game.min.js 支持 Egret 开发的小游戏  
-/build/taobao-mp.min.js 支持淘宝小程序
-
+神策小程序、小游戏的打包集合
 
 ## License
 
