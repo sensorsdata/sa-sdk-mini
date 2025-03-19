@@ -1,3 +1,9 @@
+## 0.14.7 (2025-3-18)
+1. 优化
+    - 抖音、支付宝、快手，的神策 SAT 渠道功能，删除 $ad_landing_page_url 里的 ad_params 的 key-value。对 $ad_landing_page_url  里的 value 加上 encode 
+    - 修改 max_string_length 为 5000 
+    - 开源协议修改
+
 ## 0.14.6 (2025-3-14)
 1. 新增
     - 抖音、支付宝、快手，新增神策 SAT 渠道功能，需要使用插件，插件 sat-channel 在对应的小程序目录下面。
