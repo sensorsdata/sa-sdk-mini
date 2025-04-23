@@ -1,3 +1,7 @@
+## 0.14.8 (2025-4-23)
+1. 修复
+    - 淘宝小程序云应用在端上发请求时候，没有 success 返回，只返回 data。导致无法判断发送是否成功，导致数据重复发送。
+
 ## 0.14.7 (2025-3-18)
 1. 优化
     - 抖音、支付宝、快手，的神策 SAT 渠道功能，删除 $ad_landing_page_url 里的 ad_params 的 key-value。对 $ad_landing_page_url  里的 value 加上 encode 
