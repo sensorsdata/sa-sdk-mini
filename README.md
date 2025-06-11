@@ -15,5 +15,5 @@
 
 ## License
 
-[License 协议](LICENSE)
+[License 协议](https://github.com/sensorsdata/sa-sdk-mini/blob/master/LICENSE)
 
