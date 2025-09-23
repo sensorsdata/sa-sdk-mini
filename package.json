@@ -1,6 +1,6 @@
 {
   "name": "sa-sdk-mini",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "description": "神策小游戏 SDK",
   "main": "/build/",
   "scripts": {
